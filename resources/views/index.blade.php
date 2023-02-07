@@ -310,6 +310,10 @@
         .widget-49 .widget-49-meeting-action a {
             text-transform: uppercase;
         }
+
+        .card-header {
+            color: #0081C9;
+        }
     </style>
     <div class="container mt-3">
         <div class="card">

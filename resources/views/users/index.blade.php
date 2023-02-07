@@ -357,7 +357,7 @@
                         <tr>
                             @foreach ($users as $key => $user)
                                 <td>{{ $users->firstItem() + $key }}</td>
-                                <td>{{ $user->nama }}</td>
+                                <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
                                 <td>
                                     <form action="/dashboard/users/{{ $user->id }}" method="post"

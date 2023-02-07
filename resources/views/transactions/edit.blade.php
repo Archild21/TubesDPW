@@ -369,10 +369,10 @@
                             <select class="form-select" name="user_id">
                                 @foreach ($users as $user)
                                     @if (old('user_id') == $user->id)
-                                        <option value="{{ $user->id }}" selected>{{ $user->nama }}
+                                        <option value="{{ $user->id }}" selected>{{ $user->name }}
                                         </option>
                                     @else
-                                        <option value="{{ $user->id }}">{{ $user->nama }}
+                                        <option value="{{ $user->id }}">{{ $user->name }}
                                         </option>
                                     @endif
                                 @endforeach

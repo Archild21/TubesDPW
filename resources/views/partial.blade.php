@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{config('app.name')}}</title>
+    <link rel="icon" href="{{url('images/logo_sml.png')}}">
 </head>
 <body>
+    <style>
+    .navbar {
+        background-image: linear-gradient(to right, #5BC0F8, #0081C9);
+  }
+    </style>
     <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{url('/')}}">{{config('app.name')}}</a>

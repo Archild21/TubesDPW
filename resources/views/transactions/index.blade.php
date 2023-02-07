@@ -366,7 +366,7 @@
                                 <td>{{ $transactions->firstItem() + $key }}</td>
                                 <td>{{ $transaction->no_nota }}</td>
                                 <td>{{ $transaction->created_at }}</td>
-                                <td>{{ $transaction->user->nama }}</td>
+                                <td>{{ $transaction->user->name }}</td>
                                 <td>{{ $transaction->nama_pembeli }}</td>
                                 <td>{{ $transaction->status }}</td>
                                 <td>{{ $transaction->total_harga }}</td>

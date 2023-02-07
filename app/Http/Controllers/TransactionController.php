@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
+use App\Models\Order;
+use App\Models\Customer;
 use App\Models\Transaction;
 use Illuminate\Http\Request;
 

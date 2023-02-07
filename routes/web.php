@@ -7,6 +7,7 @@ use App\Http\Controllers\authController;
 use App\Http\Controllers\GoodController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\HutangController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\CashierController;

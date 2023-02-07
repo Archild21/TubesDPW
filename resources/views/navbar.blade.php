@@ -1,10 +1,13 @@
 @extends('template')
 <style>
     .navbar {
-        background-image: linear-gradient(to right, #fe8c00, #f83600);
+        background-image: linear-gradient(to right, #FFC93C, #0081C9);
     }
 </style>
-
+<head>
+    {{-- Icon Website --}}
+    <link rel="icon" href="{{url('images/logo_sml.png')}}">
+</head>
 <nav class="navbar navbar-dark navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="user"><img
